@@ -23,6 +23,7 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <thin.version>1.0.23.RELEASE</thin.version>
     </properties>
 
     <dependencies>

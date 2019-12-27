@@ -17,8 +17,11 @@
             <groupId>cn.zhucongqi</groupId>
             <artifactId>springboot-dubbo-api</artifactId>
         </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+        </dependency>
     </dependencies>
-
 
     <build>
         <plugins>

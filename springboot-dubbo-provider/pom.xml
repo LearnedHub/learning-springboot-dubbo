@@ -17,9 +17,18 @@
             <groupId>cn.zhucongqi</groupId>
             <artifactId>springboot-dubbo-api</artifactId>
         </dependency>
+
+        <!-- dubbo metadata -->
         <dependency>
-            <groupId>redis.clients</groupId>
-            <artifactId>jedis</artifactId>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-metadata-report-zookeeper</artifactId>
+            <version>2.7.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-metadata-report-redis</artifactId>
+            <version>2.7.3</version>
         </dependency>
     </dependencies>
 
